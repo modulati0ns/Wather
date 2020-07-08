@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+:root
+{
+    --negro: #07020D;
+    --gris: #7F7979;
+    --azul: #5DB7DE;
+    --verde: #88D18A;
+    --blanco: #F9FAF0;
+
+}
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+    background-color: var(--azul);
+}
+
+.title
+{
+    padding: 15px;
+    font-size: larger;
+}
+
+.container
+{   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    border: 4px solid var(--verde);
+    border-radius: 15px;
+    box-shadow: 0px 3px  2px var(--negro);
+    background: var(--blanco);
+    min-width: 400px;
+    min-height: 500px;
+}
+
+.city{
+    font-size: 100px;
+}
+
+.icon
+{
+    margin: -10% 0;
+    font-size: 150px;
+    color: var(--verde);
+} 
+
+.temp{
+    font-size: 100px;
+}
