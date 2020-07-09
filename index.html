@@ -4,11 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Weather App</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="css/weather-icons.min.css">
+
 </head>
 
 <body>
@@ -18,16 +19,37 @@
     </div>
     <div class="container">
 
-        <div class="city">
-            <Ciudad>
+        <div class="info">
+            <div class="wind">
+                <i class="wi wi-owm-957"></i>
+                <span class="wind-val">
+
+                </span>
+            </div>
+            <div class="hum">
+                <i class="wi wi-humidity"></i>
+                <span class="hum-val">
+
+                </span>
+            </div>
+            <div class="percent">
+                <i class="wi wi-rain"></i>
+                <span class="percent-val">
+
+                </span>
+            </div>
         </div>
         <div class="icon">
         </div>
         <div class="temp">
-            <span class='celsius'></span>
-            <span>&#8451;</span>
+            <span class='celsius'></span> ºC
+            <!-- <span>&#8451;</span> -->
         </div>
-         </div>
+        <div class="city">
+            <Ciudad>
+        </div>
+        <button class='but'>boton</button>
+    </div>
 
 
     <script type="text/javascript" src="app.js"></script>
