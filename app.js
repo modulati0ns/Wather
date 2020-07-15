@@ -30,7 +30,7 @@ async function getData(lat, lon) {
             displayWeather();
         })
         .catch((e)=>{
-            console.log('Se ha encontrado un error: '+e);
+            console.log('Se ha encontsdfsdfsdfsdfrado un error: '+e);
         })
 
 }
